@@ -1,0 +1,14 @@
+.eventos {
+    width: 200px;
+    margin-top: 200px; 
+    left: 400px;
+    background-color:#0A122A;
+    position: fixed;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.titulo_vacio{
+    color: white;
+}

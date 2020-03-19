@@ -1,0 +1,16 @@
+.evento {
+    background: #335C67;
+    border-radius: 2px;
+    float: left;
+    padding: 10px;
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.titulosEvento{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 1px;
+    margin-top: 5px;
+}

@@ -1,6 +1,5 @@
 import { combineReducers } from 'redux';
-import omit from 'lodash/omit';
-
+// import omit from 'lodash/omit';
 import * as types from '../types/events';
 
 
@@ -8,10 +7,6 @@ const order = (state = [], action) => {
     switch (action.type) {
         case types.EVENT_ADDED: {
             return [...state, action.payload.id];
-        }
-        case types.EVENT_DELETED: {
-            const newState = [...state].filter(b => b !== action.payload.id);
-            return newState;
         }
         default: {
             return state;
@@ -26,9 +21,6 @@ const byId = (state = {}, action) => {
         ...state,
         [action.payload.id]: action.payload,
       };
-    }
-    case types.EVENT_DELETED: {
-      return omit(state, action.payload.id);
     }
     default: {
       return state;

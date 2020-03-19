@@ -1,7 +1,7 @@
 import * as types from '../types/selected';
 
 
-const selected = (state = [0,"No hay un bebe seleccionado",3], action) => {
+const selected = (state = [0,"Ninguno",3], action) => {
     switch (action.type) {
         case types.BABY_SELECTED: {
             return action.payload; 

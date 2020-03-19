@@ -1,0 +1,47 @@
+.contenedor{
+  position: fixed;
+  left:20px;
+  background-color: #0A122A;
+  width: 300px;
+  height: 350px;
+  margin-top: 250px;
+  text-align: center;
+  border-radius: 10px;
+  }
+  
+.titulo{
+  display: block;
+  color: white;
+  font-size: 2rem;
+}
+
+.formulario {
+  margin-bottom: 30px;
+  flex-direction: column;
+  align-self: center;
+}
+
+.titulo_nombre, .titulo_apellido {
+  color: white;
+}  
+
+.input {
+  background-color: #335C67;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: 240px;
+}
+
+.boton{
+  margin-top: 30px;
+  color: white;
+  border: solid 1px;
+  background-color: #335C67;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  shape-outside: initial;
+  font-size: 1rem;
+}

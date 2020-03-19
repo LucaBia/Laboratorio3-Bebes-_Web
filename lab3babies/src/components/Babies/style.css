@@ -1,0 +1,13 @@
+.contenedorBebes {
+    position: fixed;
+    width: 250px;
+    left: 400px;
+    margin-top: 250px;
+    background-color: #0A122A;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.vacio{
+    color: white;
+}

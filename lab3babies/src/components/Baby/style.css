@@ -1,0 +1,13 @@
+.bebeNuevo {
+    background: #0A122A;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.bebeNuevo:hover{
+    background: #5D737E;
+}
+
+.nombre, .apellido{
+    color: white;
+}

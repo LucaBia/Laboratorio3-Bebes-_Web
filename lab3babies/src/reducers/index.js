@@ -13,10 +13,10 @@ const reducer = combineReducers({
 
 export default reducer;
 
-export const getBaby = (state, id) => babySelectors.getBaby(state.babies, id);
-export const getBabies = state => babySelectors.getBabies(state.babies);
+export const getBaby = (state, id) => babySelectors.getBaby(state.baby, id);
+export const getBabies = state => babySelectors.getBabies(state.baby);
 export const getEvent = (state, id) => eventsSelectors.getEvent(state.events, id);
 export const getEvents = state => eventsSelectors.getEvents(state.events);
 export const getEventBaby  = (state, babyId) => eventsSelectors.getEventBaby(state.events, babyId);
 export const getEventsBabies = state => eventsSelectors.getEventsBabies(state.events);
-export const getSelectedBaby = state => selectedSelectors.getSelectedBaby(state.selectedBaby);
+export const getSelectedBaby = state => selectedSelectors.getSelectedBaby(state.selected);
